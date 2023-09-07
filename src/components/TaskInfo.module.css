@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskInfo strong {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue-500);
+}
+
+.taskInfo span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}
+
+.completedTask {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.completedTask strong {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple-500);
+}
+
+.completedTask span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}

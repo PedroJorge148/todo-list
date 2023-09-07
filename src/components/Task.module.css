@@ -1,0 +1,60 @@
+.task {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--gray-500);
+
+  width: 100%;
+}
+.taskContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskContent button[type=button] {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 8px;
+}
+
+.uncheckedButton svg {
+  color: var(--blue-500);
+}
+
+.checkedButton svg{
+  color: var(--purple-900);
+
+}
+
+.taskContent label {
+  font-size: 0.875rem;
+}
+
+.taskUncompleted {
+  color: var(--gray-100);
+}
+
+.taskCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.task button[type=button] {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 8px;
+}
+
+.task button[type=button]:hover {
+  color: var(--red-500);
+}
